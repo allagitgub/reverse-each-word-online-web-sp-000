@@ -9,6 +9,6 @@ def reverse_each_word(sentence) 
       new_sentence << " "   
     end 
   } 
-  new_sentence.stripend
+  new_sentence.strip
 end
 puts reverse_each_word("Hello there, and how are you?")
