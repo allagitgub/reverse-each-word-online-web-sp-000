@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
   array = sentence.split
   reversed_sentence = ""
-  array.collect.with_index {|word, i|
+  array.collect{|word
     array[i] = word.reverse
   }
   array.each {|word|
