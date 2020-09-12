@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
   array = sentence.split
   reversed_sentence = ""
   array.collect {|word|
-    word.reverse
+    puts word.reverse
   }
   puts "URA "+ array.to_s
   array.each {|word|
