@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   counter = 0
   new_sentence = ""
   array.collect {|word|
-    word.reverse << " "
+    new_sentence << word.reverse + " "
     counter +=1
   }
 end
